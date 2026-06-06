@@ -1,56 +1,62 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Bhushan Deshpande"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am a Data Scientist at **Coriolis Technologies Pvt. Ltd.** and a recent BS-MS Dual Degree graduate in Data Science from the **Indian Institute of Science Education and Research (IISER), Pune**. Throughout my academic journey, my work has been recognized and supported by the prestigious **DST INSPIRE Fellowship** and the **Infosys Foundation Scholarship** (2020-2025).
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+My research interests lie at the intersection of **Explainable and Bio-inspired AI, Cognitive Foundations of Intelligence, Efficient Machine Learning, and Large Language Models (LLMs)**. 
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+My overarching long-term research goal is to understand how biological systems process complex information under severe constraints and leverage those principles to build transparent, data-efficient, and structurally optimized machine learning architectures that bridge the gap between black-box deep learning and human-like cognitive intelligence.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+---
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+### 🔥 News & Recent Updates
+* **April 2026:** Delivered two invited research presentations at the **Chennai Mathematical Institute (CMI)** covering scalable data curation pipelines for Indic LLMs and robust language identification.
+* **November 2025:** Joined Coriolis Technologies as a Data Scientist working on *Project MIRA*, developing SFT/IFT alignment pipelines and high-EQ synthetic datasets.
+* **June 2025:** Successfully defended my MS Thesis at IISER Pune on "Large-Scale Code Generation and Evaluation Using Compute-Constrained Open-Source LLMs".
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+---
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+### 🧠 Featured Research Projects
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+#### 1. Activity-Dependent Structural Sparsification: Biologically Inspired Dynamic Neural Pruning (DADP)
+* **Role:** Independent Researcher 
+* **Core Contribution:** Developed a structural sparsification algorithm translating biological synapse elimination into deep learning. It continuously evaluates connection utility during a single training pass using an expected Gradient $\times$ Activation metric ($E [||a_i \cdot \frac{\partial L}{\partial y_j}||]$).
+* **Key Impact:** Achieved **72.79% structural sparsity on VGG-16** while simultaneously boosting baseline test accuracy on CIFAR-10 by **+1.70%** (reaching 84.64%).
+* Links: `[Preprint PDF TBA]` | `[Code Repository Coming Soon]`
 
-**Markdown generator**
+#### 2. Olfactory-Inspired Sparse Combinatorial Coding for Low-Resource Named Entity Recognition (NER)
+* **Role:** Independent Researcher
+* **Core Contribution:** Introduced a structural inductive bias modeling an olfactory receptor-glomerular bottleneck between token embeddings and a BiLSTM-CRF sequence model to handle strict data limits without pretrained models.
+* **Key Impact:** Pushed F1 performance by up to **+6.23% in Bangla** and **+4.31% in Tamil** under a strict 1k capped sentence environment, dramatically stabilizing training variance across evaluation seeds.
+* Links: `[Manuscript PDF TBA]` | `[Code Repository Coming Soon]`
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+---
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+### 💼 Research & Professional Experience
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
+* **Data Scientist** | Coriolis Technologies Pvt. Ltd. (*Nov 2025 – Present*)
+  * Lead data acquisition, pre-training, SFT/IFT alignment configurations, and human alignment pipelines.
+  * Pioneered architectures for High Emotional Quotient (EQ) synthetic text generation and finetuned high-fidelity text-to-speech (TTS) architectures.
+* **Master's Thesis Student** | IISER Pune (*2024 – 2025*)
+  * Evaluated over a dozen open-source LLMs ranging from 1B to 24B parameters (including explicit reasoning/thinking configurations) for automated code generation workflows within tightly constrained computing landscapes.
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+---
+
+### 🎙️ Invited Talks & Academic Presentations
+
+* **Scalable Acquisition, Synthesis and Curation of Data for Indic LLMs** * *Venue:* Chennai Mathematical Institute (CMI), India | *April 6, 2026*
+  * *Focus:* Discussed systemic imbalances between pretraining and alignment distributions, and pipelines to synthesize high-EQ Indic textual representations.
+* **Beyond Native Scripts: Robust Language Identification for Romanized and Code-Mixed Indian Languages** * *Venue:* Chennai Mathematical Institute (CMI), India | *April 7, 2026*
+  * *Focus:* Presented custom curriculum-based training methods to address systematic confusion, script loss, and linguistic overlap in cross-lingual environments.
+
+---
+
+### 📬 Contact Info
+* **Email:** [bhushan.deshpande@students.iiserpune.ac.in](mailto:bhushan.deshpande@students.iiserpune.ac.in)
+* **Profiles:** [GitHub](https://github.com/bhushan1729) | [LinkedIn](https://www.linkedin.com/in/bhushan-deshpande)
