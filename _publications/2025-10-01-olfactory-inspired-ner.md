@@ -1,12 +1,14 @@
 ---
+layout: single
 title: "Olfactory-Inspired Sparse Combinatorial Coding for Low-Resource Named Entity Recognition"
 collection: publications
 permalink: /publication/2025-10-01-olfactory-inspired-ner
 date: 2025-10-01
 venue: "Conference Submission / Preprint"
+excerpt: "Introducing a biological receptor-glomerular bottleneck modeling olfactory priors into sequence models, boosting low-resource NER performance by +6.23% F1 in Bangla and +4.31% F1 in Tamil."
 ---
 
-Named Entity Recognition (NER) in data-scarce languages suffers due to missing high-quality pretrained embeddings and limited supervision. This project designs a structural inductive bias modeling an biological olfactory receptor-glomerular bottleneck architecture positioned between standard token embeddings and a sequence-level BiLSTM-CRF layer.
+Named Entity Recognition (NER) in data-scarce languages suffers due to missing high-quality pretrained embeddings and limited supervision. This project designs a structural inductive bias modeling a biological olfactory receptor-glomerular bottleneck architecture positioned between standard token embeddings and a sequence-level BiLSTM-CRF layer.
 
 ### 📊 Core Accomplishments & Metrics
 * Evaluated comprehensively across six distinct multilingual datasets without relying on pretrained foundational setups.

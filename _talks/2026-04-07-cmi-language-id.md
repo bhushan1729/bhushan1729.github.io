@@ -1,4 +1,5 @@
 ---
+layout: talk
 title: "Beyond Native Scripts: Robust Language Identification for Romanized and Code-Mixed Indian Languages"
 collection: talks
 type: "Invited Seminar Talk"
@@ -6,6 +7,7 @@ permalink: /talks/2026-04-07-cmi-language-id
 venue: "Chennai Mathematical Institute"
 date: 2026-04-07
 location: "Chennai, India"
+excerpt: "Invited talk breaking down custom curriculum training solutions for structural LID tasks in code-mixed and transliterated language environments."
 ---
 
 Delivered an invited presentation covering robust Language Identification (LID) strategies under script variation.
