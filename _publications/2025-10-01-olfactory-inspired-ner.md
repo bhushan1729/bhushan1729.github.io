@@ -2,6 +2,7 @@
 layout: single
 title: "Olfactory-Inspired Sparse Combinatorial Coding for Low-Resource Named Entity Recognition"
 collection: publications
+category: manuscripts
 permalink: /publication/2025-10-01-olfactory-inspired-ner
 date: 2025-10-01
 venue: "Conference Submission / Preprint"

@@ -2,6 +2,7 @@
 layout: single
 title: "Activity-Dependent Structural Sparsification: Biologically Inspired Dynamic Neural Pruning"
 collection: publications
+category: manuscripts
 permalink: /publication/2026-06-05-dadp-pruning
 date: 2026-06-05
 venue: "Independent Research / Working Paper"
