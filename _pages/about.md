@@ -33,5 +33,5 @@ My overarching long-term research goal is to understand how biological systems p
 ---
 
 ### 📬 Contact Info
-* **Email:** [bhushan.deshpande@students.iiserpune.ac.in](mailto:bhushan.deshpande@students.iiserpune.ac.in)
+* **Email:** [bhushan1729dsp@gmail.com](mailto:bhushan1729dsp@gmail.com)
 * **Profiles:** [GitHub](https://github.com/bhushan1729) | [LinkedIn](https://www.linkedin.com/in/bhushan-deshpande)
