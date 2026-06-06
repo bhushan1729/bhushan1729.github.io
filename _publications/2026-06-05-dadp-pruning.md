@@ -13,4 +13,4 @@ Deep learning models suffer from severe over-parameterization, resulting in high
 * Achieved **72.79% structural sparsity on VGG-16** while simultaneously improving baseline test accuracy on CIFAR-10 by **+1.70%** (reaching 84.64%).
 * Achieved **91.61% sparsity on CNNs on MNIST** alongside a **+0.85% validation accuracy boost**.
 
-[View Code Repository]([https://github.com/bhushan1729](https://github.com/bhushan1729/hebbian_learning))
+[View Code Repository](https://github.com/bhushan1729/hebbian_learning))
