@@ -5,7 +5,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2026-06-05-dadp-pruning
 date: 2026-06-05
-venue: "Independent Research / Working Paper"
+venue: "Working Paper"
 excerpt: "A dynamic neural pruning algorithm based on biological synapse elimination, achieving 72.79% structural sparsity on VGG-16 while improving CIFAR-10 baseline accuracy by +1.70%."
 ---
 
