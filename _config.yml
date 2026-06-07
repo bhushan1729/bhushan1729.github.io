@@ -22,7 +22,7 @@ repository               : "bhushan1729/bhushan1729.github.io"
 #                Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png" # Tip: Rename your headshot to profile.png and drop it into the /images/ folder
+  avatar           : "profile.jpg" # Tip: Rename your headshot to profile.png and drop it into the /images/ folder
   name             : "Bhushan Deshpande"
   pronouns         : # example: "she/her"  
   bio              : "Data Scientist at Coriolis Technologies & BS-MS graduate from IISER Pune. Working on Explainable AI, Bio-inspired Architecture, and Efficient ML."
