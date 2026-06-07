@@ -2,17 +2,17 @@
 main:
   - title: "About Me"
     url: /
+  - title: "Projects"
+    url: /projects/
   - title: "Research & Preprints"
     url: /publications/
   - title: "Invited Talks"
     url: /talks/
-  - title: "Projects"
-    url: /projects/
   - title: "Courses"
     url: /courses/
   - title: "Skills"
     url: /skills/
+  - title: "CV"
+    url: /files/Bhushan_Deshpande_CV.pdf
   - title: "Others"
     url: /others/
-  - title: "Curriculum Vitae (CV)"
-    url: /files/Bhushan_Deshpande_CV.pdf

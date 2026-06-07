@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                  : "en-US"
 site_theme               : "contrast" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Bhushan Deshpande | Academic Portfolio"
+title                    : "Academic Portfolio"
 title_separator          : "-"
 name                     : &name "Bhushan Deshpande"
 description              : &description "Bhushan Deshpande's academic portfolio. Data Scientist and AI Researcher focusing on Bio-inspired AI, Explainable ML, and Cognitive Systems."
