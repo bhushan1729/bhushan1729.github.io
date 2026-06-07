@@ -71,5 +71,5 @@ My long-term research goal is to understand how biological systems process compl
 * **Profiles:**
     [GitHub](https://github.com/bhushan1729)
     [LinkedIn](https://www.linkedin.com/in/bhushan-deshpande-650844212/)
-    [Google Scholar](https://scholar.google.com/citations?user=Q1yv-nIAAAAJ&hl=en)
+    [Google Scholar](https://scholar.google.com/citations?hl=en&user=2pccn0AAAAAJ&view_op=list_works)
     [Website](https://bhushan1729.github.io/)
