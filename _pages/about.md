@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Data Scientist at [Coriolis Technologies Pvt. Ltd.](https://www.coriolis.co.in/home/) and a recent BS-MS Dual Degree graduate in Data Science from the [Indian Institute of Science Education and Research (IISER), Pune](https://www.iiserpune.ac.in/). Throughout my academic journey, my work has been recognized and supported by the prestigious **DST INSPIRE Fellowship** and the **Infosys Foundation Scholarship** (2020-2025).
+I am a Data Scientist at [Coriolis Technologies Pvt. Ltd.](https://www.coriolis.co.in/home/) and a recent BS-MS Dual Degree graduate in Interdisciplinary Sciences (MS thesis in Data Science) from the [Indian Institute of Science Education and Research (IISER), Pune](https://www.iiserpune.ac.in/). Throughout my academic journey, my work has been recognized and supported by the prestigious **DST INSPIRE Fellowship** and the **Infosys Foundation Scholarship** (2020-2025).
 
 **Academic Status:** I am actively seeking **PhD positions and research internships** starting in the upcoming cycle within my core areas of interest or related domains. 
 

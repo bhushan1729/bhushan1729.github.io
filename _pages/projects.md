@@ -9,7 +9,7 @@ author_profile: true
   <!-- Project 1 -->
   <div class="project-card">
     <h3>Activity-Dependent Structural Sparsification for Deep Neural Networks</h3>
-    <p><strong>Timeline:</strong> Jan. 2026 – Present | <strong>Affiliation:</strong> Independent | <strong>Supervisor:</strong> Deep Learning</p>
+    <p><strong>Timeline:</strong> Jan. 2026 – Present | <strong>Affiliation:</strong> Independent | <strong>Supervisor:</strong> Self-supervised</p>
     <ul>
       <li>Designed a dynamic structural sparsification framework mimicking activity-dependent synapse elimination in biological nervous systems during developmental learning.</li>
       <li>Developed an online pruning mechanism in PyTorch that accumulates connection saliency scores over data distributions using custom backward hook gradient tracking.</li>
