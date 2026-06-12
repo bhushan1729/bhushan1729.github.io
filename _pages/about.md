@@ -30,7 +30,7 @@ My long-term research goal is to understand how biological systems process compl
 
 * **Interdisciplinary Academic Foundation:** During my rigorous dual degree program at IISER Pune, I undertook undergraduate and graduate-level coursework spanning **Data Science, Physics, Mathematics, Biology, and the Humanities**. This multidimensional scientific training equips me with a unique structural perspective, enabling me to think and develope methodologies from diverse fields and formulate creative, robust approaches to complex, real-world problems.
 * **Proven Track Record across Industry & Academia:** I bring **2 years of industry experience as a Data Scientist** alongside a solid foundation in academic research. Having successfully executed and accomplished multiple research projects in both high-velocity corporate environments and deep academic settings. I have developed the professional adaptability, technical rigor, and independent execution skills necessary for high-impact research.
-* **Leadership & Communication:** Led a team of 4 engineers to deploy RAG-based code generation pipelines, and currently supervising 2 research interns on LoRA fine-tuning of Hindi Text-to-Speech (TTS) models at Coriolis Technologies.
+* **Leadership & Communication:** Led a team of 4 engineers during my research internship at Coriolis Technologies, communicating key research findings in RAG-based code generation and client requirements to guide production implementation. Currently, I am leading two research interns at Coriolis on optimizing **Orpheus-TTS** (a large autoregressive Text-to-Speech model by Canopy Labs) for production-quality Hindi speech synthesis via pipeline evaluation, data preprocessing, and LoRA fine-tuning.
 
 ---
 ## News & Recent Updates
