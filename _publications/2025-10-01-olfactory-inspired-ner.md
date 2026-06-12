@@ -4,7 +4,7 @@ title: "Olfactory-Inspired Sparse Combinatorial Coding for Low-Resource Named En
 collection: publications
 category: manuscripts
 permalink: /publication/2025-10-01-olfactory-inspired-ner
-date: 2025-10-01
+date: 2026-03-01
 venue: "Working Paper"
 excerpt: "Introducing a biological receptor-glomerular bottleneck modeling olfactory priors into sequence models, boosting low-resource NER performance by +6.23% F1 in Bangla and +4.31% F1 in Tamil."
 ---
