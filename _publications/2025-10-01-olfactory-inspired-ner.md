@@ -7,6 +7,8 @@ permalink: /publication/2025-10-01-olfactory-inspired-ner
 date: 2026-03-01
 venue: "Working Paper"
 excerpt: "Introducing a biological receptor-glomerular bottleneck modeling olfactory priors into sequence models, boosting low-resource NER performance by +6.23% F1 in Bangla and +4.31% F1 in Tamil."
+paperurl: 'https://arxiv.org/abs/2606.21895'
+citation: 'Deshpande, B. (2026). Olfactory-Inspired Sparse Combinatorial Coding for Low-Resource Named Entity Recognition. arXiv preprint arXiv:2606.21895.'
 ---
 
 Named Entity Recognition (NER) in data-scarce languages suffers due to missing high-quality pretrained embeddings and limited supervision. This project designs a structural inductive bias modeling a biological olfactory receptor-glomerular bottleneck architecture positioned between standard token embeddings and a sequence-level BiLSTM-CRF layer.
@@ -19,4 +21,4 @@ Named Entity Recognition (NER) in low-resource languages suffers from limited su
 * In strict 1k capped sentence tracking, the olfactory constraint acted as an excellent regularizer, yielding massive gains of up to **+6.23% F1 in Bangla** and **+4.31% F1 in Tamil**.
 * Substantially minimized training performance variance across random initialization seeds.
 
-[View Code Repository](https://github.com/bhushan1729/olfaction-inspired-ner)
+[arXiv Preprint](https://arxiv.org/abs/2606.21895) | [View Code Repository](https://github.com/bhushan1729/olfaction-inspired-ner)
