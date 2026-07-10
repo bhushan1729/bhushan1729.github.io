@@ -1,0 +1,500 @@
+%-------------------------
+% Resume in Latex
+% Author : Chandramouli Haldar
+% License : MIT
+%------------------------
+
+%---- Required Packages and Functions ----
+
+\documentclass[a4paper,11pt]{article}
+\usepackage{latexsym}
+\usepackage{xcolor}
+\usepackage{float}
+\usepackage{ragged2e}
+\usepackage[empty]{fullpage}
+\usepackage{wrapfig}
+\usepackage{lipsum}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{geometry}
+\usepackage{marvosym}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{cfr-lm}
+\usepackage[T1]{fontenc}
+\setlength{\multicolsep}{0pt} 
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{4.08003pt} % Fix for the footskip warning}
+\geometry{left=1.4cm, top=0.8cm, right=1.2cm, bottom=1cm}
+% Adjust margins
+%\addtolength{\oddsidemargin}{-0.5in}
+%\addtolength{\evensidemargin}{-0.5in}
+%\addtolength{\textwidth}{1in}
+\usepackage[most]{tcolorbox}
+\tcbset{
+	frame code={}
+	center title,
+	left=0pt,
+	right=0pt,
+	top=0pt,
+	bottom=0pt,
+	colback=gray!20,
+	colframe=white,
+	width=\dimexpr\textwidth\relax,
+	enlarge left by=-2mm,
+	boxsep=4pt,
+	arc=0pt,outer arc=0pt,
+}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% Set link colors
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue   % light blue for URLs
+}
+\urlstyle{same}
+
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-7pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item{
+    \textbf{#1}{:\hspace{0.5mm}#2 \vspace{-0.5mm}}
+  }
+}
+
+\newcommand{\resumePOR}[3]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1}:\hspace{0.3mm}#2 & \textit{\small{#3}} 
+    \end{tabular*}
+    \vspace{-2mm}
+}
+
+\newcommand{\resumeSubheading}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeProject}[4]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{p{0.75\textwidth}@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4}
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+% New command that includes a Supervisor field
+\newcommand{\resumeProjectSup}[5]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#3}} \\
+        \footnotesize{\textit{#2}} & \footnotesize{#4} \\
+        \multicolumn{2}{l}{\footnotesize{Supervisor: #5}} % The new field
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+% Command for Experience section with Supervisor field
+\newcommand{\resumeSubheadingSup}[5]{
+\vspace{0.5mm}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & \textit{\footnotesize{#4}} \\
+        \textit{\footnotesize{#3}} &  \footnotesize{#2}\\
+        \multicolumn{2}{l}{\footnotesize{Supervisors: #5}} % The new field
+    \end{tabular*}
+    \vspace{-2.4mm}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+% \renewcommand{\labelitemii}{$\circ$}
+\renewcommand{\labelitemi}{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*,labelsep=0mm]}
+\newcommand{\resumeHeadingSkillStart}{\begin{itemize}[leftmargin=*,itemsep=1.7mm, rightmargin=2ex]}
+\newcommand{\resumeItemListStart}{\begin{justify}\begin{itemize}[leftmargin=3ex, rightmargin=2ex, noitemsep,labelsep=1.2mm,itemsep=0mm]\small}
+
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{2mm}}
+\newcommand{\resumeHeadingSkillEnd}{\end{itemize}\vspace{-2mm}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\end{justify}\vspace{-2mm}}
+\newcommand{\cvsection}[1]{%
+\vspace{2mm}
+\begin{tcolorbox}
+    \textbf{\large #1}
+\end{tcolorbox}
+    \vspace{-4mm}
+}
+
+\newcolumntype{L}{>{\raggedright\arraybackslash}X}%
+\newcolumntype{R}{>{\raggedleft\arraybackslash}X}%
+\newcolumntype{C}{>{\centering\arraybackslash}X}%
+%---- End of Packages and Functions ------
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%
+%%%%%% DEFINE ELEMENTS HERE %%%%%%%
+\newcommand{\name}{Students Name} % Your Name
+\newcommand{\course}{BS-MS Dual Degree} % Your Course
+\newcommand{\department}{Data Science}
+\newcommand{\roll}{XXXXXXXXX} % Your Roll No.
+\newcommand{\phone}{7057376729} % Your Phone Number
+\newcommand{\emaila}{bhushan.deshpande@students.iiserpune.ac.in} %Email 1
+\newcommand{\emailb}{bhushan1729dsp@gmail.com} %Email 2
+\newcommand{\github}{USERID} %Github
+\newcommand{\website}{https://example.com} %Website
+\newcommand{\linkedin}{https://www.linkedin.com/in/bhushan-deshpande-650844212/} %linkedin
+
+
+
+
+\begin{document}
+\fontfamily{cmr}\selectfont
+%----------HEADING-----------------
+\parbox{2.8cm}{%
+
+\includegraphics[width=2.5cm,clip]{Bhushan Deshpande.png}
+% replace the fields with your details
+
+}\parbox{\dimexpr\linewidth-3.1cm\relax}{
+\begin{tabularx}{\linewidth}{L r} 
+  \textbf{\LARGE Bhushan Deshpande} & +91-7057376729\\ 
+  \course &  \href{bhushan1729dsp@gmail.com}{bhushan.deshpande@students.iiserpune.ac.in}\\
+  \department &  \href{https://github.com/bhushan1729}{Github} \\
+  {Indian Institute of Science Education and Research (IISER), Pune} & \href{https://www.linkedin.com/in/bhushan-deshpande-650844212/}{Linkedin} 
+    \end{tabularx}
+}
+
+\vspace{-0.3cm}
+
+% %---------Research Interests---------------
+\section{Research Interests}
+\setlength{\tabcolsep}{5pt} % Default value: 6pt
+\vspace{0.2cm}
+My research interests include \textbf{Explainable and Bio-inspired AI, Cognitive Foundations of Intelligence, Efficient Machine Learning, and Large Language Models.} I aim to apply insights from cognitive science to develop interpretable, data-efficient, and reliable AI systems. My long-term goal is to contribute to the development of AGI. My current focus is on understanding internal representations in AI models to enhance their trustworthiness, interpretability, and efficiency, particularly through biologically inspired mechanisms for representation learning and network sparsification.
+
+% %-----------EDUCATION-----------------
+\section{Education}
+\setlength{\tabcolsep}{5pt} % Default value: 6pt
+
+\small{\begin{tabularx}
+{\dimexpr\textwidth-3mm\relax}{|c|C|c|c|}
+  \hline
+  \textbf{Degree/Certificate } & \textbf{Institute/Board} & \textbf{CGPA/Percentage} & \textbf{Year}\\
+    \hline
+  Master of Science (MS)  & IISER Pune & 8.4 & 2024-2025\\
+
+  \hline
+  Bachelor of Science (BS)  & IISER Pune & 7.6 & 2020-2024\\
+  \hline
+  Higher Secondary & Maharashtra State Board & 90.92\% & 2020 \\
+  \hline
+  Secondary & Maharashtra State Board & 97.4\% & 2018 \\
+  \hline
+\end{tabularx}}
+\vspace{-2mm}
+\vspace{0.3cm}
+% %-----------EXPERIENCE-----------------
+ \section{Experience}
+   \resumeSubHeadingListStart
+
+     \resumeSubheadingSup
+       {Project MIRA, Coriolis Technologies Pvt. Ltd.}{Pune, India}
+       {Data Scientist}{Nov. 2025 -- Present}
+       {\href{https://scholar.google.com/citations?user=4r_2PaoAAAAJ&hl=en}{Prof. K. Venkata Subrahmanyam} (CMI), \href{https://scholar.google.com/citations?user=Rkh1zb8AAAAJ&hl=en}{Mr. Soma Dhaval} (IIT Jammu)}
+       \resumeItemListStart
+         \item {Pre-training, SFT/IFT, RLHF data acquisition}
+         \item {High Emotional Quotient (EQ) synthetic text data generation for training language models}
+         \item {High EQ Synthetic Text to Speech (TTS) data generation}
+         \item {Finetuning TTS model for High EQ speech generation}
+         \item {Benchmarked and developed Language Identification (LID) model robust to code-mixed and romanized Indian languages}
+       \resumeItemListEnd
+\vspace{0.2cm}
+
+     \resumeSubheading
+       {Coriolis Technologies Pvt. Ltd.}{Pune, India}
+       {Member of Technical Staff}{May 2025 -- Oct. 2025}
+       \resumeItemListStart
+         \item {Contributing to RAG-based large-scale (average 400 lines of Python code) code generation and LLM evaluation systems in production-level settings}
+         \item {Working alongside the research and engineering team to scale and optimise LLM pipelines}
+       \resumeItemListEnd
+
+\vspace{0.2cm}
+
+     \resumeSubheadingSup
+       {Coriolis Technologies Pvt. Ltd.}{Pune, India}
+       {Research Intern}{May 2024 - March 2025}
+       {\href{https://www.linkedin.com/in/sudhirkr/}{Mr. Sudhir Kumar} (Coriolis Technologies Pvt. Ltd., Pune)}
+       
+       \resumeItemListStart
+     \item {Implemented RAG improved the custom and large code (300-400 lines of Python) \\generation accuracy to 65-70\%}
+     \item {Implemented LLM as a Judge for code review}
+     \item{ Executed iterative code generation and refinement pipeline improvising initial average accuracy to 80\%}
+      \item {Reduced the time of writing code from 2 days to 3-4 hours}
+     \resumeItemListEnd
+    
+%      \resumeSubheading
+%       {XYZ Company Name}{Kolkata, India}
+%       {Academic Intern}{May. 2019 - Jul. 2020}
+%       \resumeItemListStart
+%     \item {XXXXXXXXXXXXXXX}
+%         \item {YYYYYYYYYYYYYYYYYY}
+%     \resumeItemListEnd
+      
+%  \resumeSubHeadingListEnd
+\vspace{-4mm}
+\vspace{0.3cm}
+%-----------PROJECTS-----------------
+\section{Projects}
+\resumeSubHeadingListStart
+    \resumeProjectSup
+  {Activity-Dependent Structural Sparsification for Deep Neural Networks} %Project Name
+  {Independent} %Organization
+  {Jan. 2026 -- Present} %Event Dates
+  {} %Website
+  {Self-supervised}
+\resumeItemListStart
+    \item {Designed a dynamic structural sparsification framework mimicking activity-dependent synapse elimination in biological nervous systems during developmental learning.}
+    \item {Developed an online pruning mechanism in PyTorch that accumulates connection saliency scores over data distributions using custom backward hook gradient tracking.}
+    \item {Conducted layer-wise sparsity analysis demonstrating that the model organically preserves early visual feature extractors (0\% sparsity) while selectively gutting deep convolutional layers (75\%--92\% sparsity).}
+    \item {Pruned VGG-16 to 98.41\% sparsity (63$\times$ compression) on MNIST maintaining 98.72\% accuracy (vs. 99.49\% baseline), and to 72.79\% sparsity on CIFAR-10 with 84.64\% accuracy (vs. 82.94\% baseline).}
+    \item {Demonstrated extreme single-shot parameter compression while consistently outperforming state-of-the-art dynamic sparsity methods like RigL.}
+\resumeItemListEnd
+
+\vspace{0.3cm}
+
+    \resumeProjectSup
+  {Olfactory System Inspired Named Entity Recognition (NER)} %Project Name
+  {Independent} %Organization
+  {Dec. 2025 -- Present} %Event Dates
+  {} %Website
+  {Self-supervised}
+\resumeItemListStart
+    \item {Designed a biologically inspired global mixing module for NER based on principles of distributed sensing and pattern activation in the human olfactory system.}
+    \item {Implemented an Olfaction Module + BiLSTM-CRF architecture.}
+    \item {Developed and evaluated a strong BiLSTM-CRF baseline.}
+    \item {Conducted ablation studies to analyse the impact of non-local feature interactions on entity boundary detection and rare entity recognition.}
+
+\resumeItemListEnd
+
+
+\vspace{0.3cm}
+
+
+        \resumeProjectSup
+      {Object Tracking using Computer Vision and YOLOv8 } %Project Name
+      {Independent} %Project Name, Location Name
+      {Jan. 2024 - Feb. 2024} %Event Dates
+      {} %Website
+      {Self-supervised}
+     \resumeItemListStart
+        \item {Tracked the cricket ball using a computer vision framework. Used the green colour bounding box to track the ball with an accuracy of 60 percent of the time.}
+    \resumeItemListEnd
+
+    
+\vspace{0.3cm}
+    \resumeProjectSup
+      {Scaling up data curation workflows using NLP} %Project Name
+      {IISER Pune} %Project Name, Location Name
+      {Aug. 2023 - May 2024} %Event Dates
+      {} %Website
+      {\href{https://scholar.google.com/citations?user=bMU4QficRmcC&hl=en}{Prof. Joy Merwin Monteiro}}
+      
+     \resumeItemListStart
+        \item {Leveraged modern NLP techniques to develop workflows that accurately curate address data}
+        \item {A basic geocoding framework is created using Weak Supervision and Clustering methods}
+    \resumeItemListEnd
+    
+\vspace{0.3cm}
+    \resumeProjectSup
+      {Normalization analysis with VGG16 on CIFAR} %Project Name
+      {IISER Bhopal} %Project Name, Location Name
+      {May 2023 - Oct. 2023} %Event Dates
+      {} %Website
+      {\href{https://scholar.google.com/citations?user=LrW6Hb4AAAAJ&hl=en}{Prof. Akshay Agarwal, PhD}}
+      \resumeItemListStart
+        \item {Implemented VGG16-based Convolutional Neural Network (CNN) for image processing tasks}
+        \item {Evaluated various normalization techniques and identified Group Normalization as the most effective}
+        \item {Validated findings on CIFAR10 and CIFAR100, where Group Normalization achieved the fastest convergence and highest accuracy}
+    \resumeItemListEnd
+    
+\vspace{0.3cm}  
+    \resumeProjectSup
+      {Era prediction based on text analysis} %Project Name
+      {IISER Pune} %Project Name, Location Name
+      {Aug. 2022 - Dec. 2022} %Event Dates
+      {} %Website
+      {\href{https://scholar.google.com/citations?user=6AhiMp0AAAAJ&hl=en}{Prof. Leelavati Narlikar}}
+     \resumeItemListStart
+        \item {Developed a machine learning model to predict the era of a text using Markov models and log-likelihood analysis.}
+        \item {Conducted text analysis on books from the 18th and 20th centuries}
+        \item {Implemented 0th and 1st-order Markov models, achieving an AUC of 83\% with the first-order model}
+    \resumeItemListEnd
+
+    
+  \resumeSubHeadingListEnd
+\vspace{-5.5mm}
+
+
+\section{Skills}
+ \resumeHeadingSkillStart
+  \resumeSubItem{Programming} % Category
+    {Python, R}
+ \resumeSubItem{Technical} % Category
+    {Git, Linux, Docker, LaTeX, Visualization, Data analysis, Microsoft Office} % Skills
+% \resumeSubItem{Operating Systems}
+% {Windows, Linux} 
+ \resumeSubItem{Techniques}
+ {Few-Shot Learning, Retrieval Augmented Generation, LLM as a Judge, Finetuning, RLHF, RLAIF, Agents } 
+ \resumeSubItem{Tools \& Libraries}
+ {Numpy, Pandas, DBSCAN, UMAP, Ollama, Langchain, Llamaindex, TensorFlow, PyTorch } 
+  \resumeSubItem{Non Technical} % Category
+ {Learning, Teaching, Time management} % Skills
+ \resumeHeadingSkillEnd
+
+
+\section{Courses and Certification}
+\resumeHeadingSkillStart
+ \resumeSubItem{Data Science} % Category
+    {Data analysis, Data Science, Parameter estimation and inverse theory, Bayesian theory and application, Generalized Linear Models (GLM), Natural Language Processing (NLP) } %\color{blue}{\href{https://example.com}{Certificate}} } % Skills
+ \resumeSubItem{Mathematics} % Category
+    {Linear Algebra, Calculus, Combinatorics, Probability, Graph theory, \& Algorithm} % \color{blue}{\href{https://example.com}{Certificate}} }
+
+\resumeSubItem{Online Courses:}
+ {\href{https://www.youtube.com/playlist?list=PLZ2ps__7DhBa5xCmncgH7kPqLqMBq7xlu}{Mathematical Foundation of Generative AI}, LLM with semantic search, Vector Databases: from Embeddings to Applications, Understanding and Applying Text Embeddings, Supervised Machine Learning: Regression and Classification, Advanced Learning Algorithms} %\color{blue}{\href{https://example.com}{Certificate}} }
+ \resumeHeadingSkillEnd
+
+
+%\section{Positions of Responsibility}
+%\vspace{-0.4mm}
+%\resumeSubHeadingListStart
+%\resumePOR{Coordinator/Volunteer/Member} % Position
+%    {XYZ Club, Guru Nanak Institute of Technology} %Club,Event
+%    {Aug. 2021 - Jul. 2022} %Tenure Period
+%    \resumeItemListStart
+%        \item { Conducted so and so event for this many audience}
+%    \resumeItemListEnd
+%\resumeSubHeadingListEnd
+%\vspace{-6mm}
+
+%-----------PUBLICATIONS-----------------
+\section{Publications}
+\resumeSubHeadingListStart
+
+    \resumeProject
+      {Olfactory-Inspired Sparse Combinatorial Coding for Low-Resource Named Entity Recognition}
+      {Preprint}
+      {Jun. 2026}
+      {\href{https://arxiv.org/abs/2606.21895}{arXiv:2606.21895}}
+      
+      \resumeItemListStart
+        \item {Designed a biologically inspired receptor-glomerular bottleneck architecture between token embeddings and a BiLSTM-CRF sequence model to improve data-scarce Named Entity Recognition.}
+        \item {Achieved F1 score gains of up to +6.23\% in Bangla and +2.61\% in English under a strict 1k-sentence low-resource control, while substantially stabilizing training variance across random seeds.}
+      \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-0.3cm}
+
+%-----------CONFERENCES-----------------
+\section{Conferences}
+\resumeSubHeadingListStart
+
+    \resumeProject
+      {\href{https://www.bits-pilani.ac.in/goa/ascml2026/}{Int. Conf. on Advanced Scientific Computing \& Machine Learning}} % Title with Link
+      {BITS Pilani, Goa Campus} % Location
+      {Feb. 10 -- 12, 2026} % Date
+      {} % Optional: You can put a short note here or leave empty
+      
+     \resumeItemListStart
+        \item {Participated in sessions on scientific computing, AI-driven simulations, and deep learning applications.}
+        % If you presented a poster or paper, replace the line above with:
+        % \item {Presented a paper/poster titled "Your Title Here"}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-0.7 cm}
+
+%-----------TALKS-----------------
+\section{Talks}
+\resumeSubHeadingListStart
+
+\resumeProject
+  {Scalable Acquisition, Synthesis and Curation of Data} % Title
+  {Chennai Mathematical Institute, Chennai, India} % Location
+  {Apr. 6, 2026} % Date
+  {} % Optional
+  
+  \resumeItemListStart
+    \item {Delivered an invited talk on scalable data pipelines for acquisition, curation, and synthetic data generation for Indic LLMs.}
+    \item {Discussed imbalance between pretraining and alignment data, and the need for high-quality, high-EQ synthetic datasets.}
+    \item {Audience included professors and graduate students in mathematics and machine learning.}
+  \resumeItemListEnd
+
+\vspace{0.7 cm}
+
+\resumeProject
+  {Beyond Native Scripts: Robust Language Identification for Romanized and Code-Mixed Indian Languages} % Title
+  {Chennai Mathematical Institute, Chennai, India} % Location
+  {Apr. 7, 2026} % Date
+  {} % Optional
+
+  \resumeItemListStart
+    \item {Delivered an invited talk on robust language identification for Romanized and code-mixed Indian languages.}
+    \item {Presented challenges of script loss, linguistic clusters, and systematic confusion in multilingual settings.}
+    \item {Outlined a curriculum-based training strategy and evaluation insights for improving LID performance.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+\vspace{-0.7 cm}
+
+\section{Achievements}
+\vspace{-0.2mm}
+\resumeSubHeadingListStart
+\resumePOR{Scholarships} % Award
+    { DST INSPIRE Fellow, Infosys Foundation Scholarship} %\color{blue}{\href{https://example.com}{Certificate}} } % Event
+    {2020-2025} %Event Year
+\resumePOR{Academic Excellence} % Award
+    { Among top 1\% in HSC Board Exam} %{\href{https://example.com}{Certificate}}  % Event
+    {2020} %Event Year
+
+
+\vspace{-0.3cm}
+\resumeSubHeadingListEnd
+\vspace{-2mm}
+% \hspace*{-5mm}\rule{1.035\textwidth}{0.1mm}
+\section{Extracurricular}
+\vspace{-0.4mm}
+\resumeSubHeadingListStart
+\resumePOR{Languages:} % Position
+    { English, Hindi, Marathi, German (basics)} %Club,Event
+    {} %Tenure Period
+\resumePOR{Hobbies} % Position
+    {Badminton, Chess, Jogging, Painting, Teaching} %Club,Event
+    {} %Tenure Period
+\resumeSubHeadingListEnd
+\vspace{-4mm}
+
+%-------------------------------------------
+\end{document}
