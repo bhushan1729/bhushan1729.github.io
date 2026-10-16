@@ -21,9 +21,9 @@ My research interests lie at the intersection of **Brain-Inspired AI, Computatio
 
 ## Core Strengths & Perspectives
 
-* **Interdisciplinary Academic Foundation:** During my rigorous dual degree program at IISER Pune, I undertook undergraduate and graduate-level coursework spanning **Data Science, Physics, Mathematics, Biology, and the Humanities**. This multidimensional scientific training equips me with a unique structural perspective, enabling me to think and develope methodologies from diverse fields and formulate creative, robust approaches to complex, real-world problems.
-* **Proven Track Record across Industry & Academia:** I bring **2 years of industry experience as a Data Scientist** alongside a solid foundation in academic research. Having successfully executed and accomplished multiple research projects in both high-velocity corporate environments and deep academic settings. I have developed the professional adaptability, technical rigor, and independent execution skills necessary for high-impact research.
-* **Leadership & Communication:** Led a team of 4 engineers during my research internship at Coriolis Technologies, communicating key research findings in RAG-based code generation and client requirements to guide production implementation. Currently, I am leading two research interns at Coriolis on optimizing **Orpheus-TTS** (a large autoregressive Text-to-Speech model by Canopy Labs) for production-quality Hindi speech synthesis via pipeline evaluation, data preprocessing, and LoRA fine-tuning.
+* **Interdisciplinary Foundation:** My dual degree at IISER Pune covered **Data Science, Physics, Mathematics, and Biology**, giving me a broad scientific perspective to approach problems creatively across fields.
+* **Industry & Research Experience:** I have **2 years of industry experience as a Data Scientist** combined with independent academic research, building skills in both fast-paced corporate and rigorous research settings.
+* **Leadership:** Led a team of 4 engineers on RAG-based code generation at Coriolis Technologies. Supervised 2 research interns on LoRA fine-tuning **Orpheus-TTS** for production-quality Hindi speech synthesis.
 
 ---
 ## News & Recent Updates
@@ -42,23 +42,17 @@ My research interests lie at the intersection of **Brain-Inspired AI, Computatio
 
 ## Research & Professional Experience
 
-* **Data Scientist** 
+* **Data Scientist**  
 [Coriolis Technologies Pvt. Ltd.](https://www.coriolis.co.in/home/) (*Nov 2025 – Present*)
-  * **LLM Alignment Engineering:** Architect and engineer data acquisition pipelines, Supervised Fine-Tuning (SFT), Instruction Fine-Tuning (IFT), and RLHF alignment strategies under the academic co-supervision of CMI and IIT Jammu faculty.
-  * **High-EQ Data Synthesis:** Pioneered novel pipeline methods for generating High Emotional Quotient (EQ) synthetic text and audio to address strict low-resource data distribution limits.
-  * **Speech Architectures:** Optimized and fine-tuned state-of-the-art Automatic Speech Recognition (ASR) and High-EQ Text-to-Speech (TTS) models to enable robust, fluid human-computer interaction patterns.
+  * **LLM Alignment:** Engineer data acquisition, Supervised Fine-Tuning (SFT), Instruction Fine-Tuning (IFT), and RLHF alignment pipelines under the academic guidance of CMI and IIT Jammu faculty.
+  * **High-EQ Synthetic Data:** Developed synthetic text and audio generation pipelines to mitigate data scarcity in emotional conversational models.
+  * **Speech Architectures:** Fine-tuned and deployed production ASR and high-EQ Text-to-Speech (TTS) models for natural voice interaction.
 
-* **Master's Thesis Researcher**
-[IISER Pune](https://www.iiserpune.ac.in/) (*May 2024 – June 2025*)
-  * **Compute-Constrained Optimization:** Conducted systematic evaluations of over a dozen open-source foundational models (ranging from 1B to 24B parameters), benchmarking code generation and retrieval-augmented behaviors under strict consumer-grade infrastructure envelopes.
-  * **Reasoning Models:** Evaluated internal response mechanics, token distribution limits, and statistical vulnerabilities (such as hallucination dynamics under variable sequence lengths) across both standard and specialized deep-thinking autoregressive architectures.
-
-* **Research Intern**
-[Coriolis Technologies Pvt. Ltd.](https://www.coriolis.co.in/home/) (*May 2024 – March 2025*)
-  * **RAG & Context Engineering:** Implemented a Retrieval-Augmented Generation (RAG) pipeline optimized for handling complex script contexts, lifting large-scale custom code generation accuracy (blocks of 300–400 lines of Python) directly to **65–70%**.
-  * **Automated Evaluation:** Deployed an automated **LLM-as-a-Judge** framework to establish rigorous semantic code review, profiling alignment vulnerabilities and code syntax compliance.
-  * **Iterative Refinement Pipelines:** Engineered an iterative generation and self-correction loop that systematically debugged execution scripts, optimizing the final average system generation accuracy to **80%**.
-  * **Efficiency Gains:** Drastically compressed enterprise developer turnaround cycles, minimizing the raw timeframe required for complex script synthesis **from 2 days down to 3–4 hours**.
+* **Master's Thesis Researcher & Research Intern**  
+[IISER Pune](https://www.iiserpune.ac.in/) & [Coriolis Technologies](https://www.coriolis.co.in/home/) (*May 2024 – June 2025*)
+  * **Model Evaluation & Benchmarking:** Evaluated over a dozen open-source LLMs (1B–24B parameters) for code generation under consumer-grade hardware constraints, analyzing response quality, token limits, and hallucination rates.
+  * **RAG & Self-Correction:** Built a Retrieval-Augmented Generation (RAG) pipeline with iterative self-correction for complex Python scripts (300–400 lines), increasing generation accuracy to **80%**.
+  * **Automated Evaluation:** Implemented an **LLM-as-a-Judge** framework for semantic code review, reducing script development time from **2 days to 3–4 hours**.
 
 ---
 
