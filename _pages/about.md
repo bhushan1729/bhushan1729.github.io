@@ -15,14 +15,7 @@ I am a Data Scientist at [Coriolis Technologies Pvt. Ltd.](https://www.coriolis.
 
 ## Research Interests
 
-My research interests lie at the intersection of:
-* **Explainable and Bio-inspired AI**
-* **Cognitive Foundations of Intelligence**
-* **Data and Energy Efficient Machine Learning**
-* **Interpretible and Robust Deep Learning Models**
-* **Biologically Inspired Representation Learning and Network Pruning**
-
-My long-term research goal is to understand how biological systems process complex information under severe environmental and energy constraints. I aim to leverage these foundational principles to build transparent, data-efficient, and structurally optimized neural architectures that bridge the gap between empirical black-box deep learning and human-like cognitive intelligence.
+My research interests lie at the intersection of **Brain-Inspired AI, Computational Neuroscience, and Efficient Deep Learning**. I study how biological principles—like pruning, plasticity, information bottlenecks, and inductive biases—can be formalized into architectures and learning rules to improve parameter efficiency, generalization, and representation learning in artificial neural networks.
 
 ---
 
@@ -35,6 +28,8 @@ My long-term research goal is to understand how biological systems process compl
 ---
 ## News & Recent Updates
 
+* **October 2026:** Released second arXiv preprint: **[DADP: Dynamic Activity-Dependent Pruning, A Reverse Hebbian-Inspired Structural Pruning Method](https://arxiv.org/abs/2610.11853)** — a biologically inspired structural sparsification algorithm evaluated across MLP, VGG-16, ResNet-18, BiLSTM-CRF, and MiniBERT architectures.
+* **August 2026:** Open-sourced **[Orpheus-3B-TTS-Hindi](https://huggingface.co/CoriolisTechnologies/orpheus-3b-tts-hindi)** — a LoRA fine-tuned Hindi Text-to-Speech model based on Orpheus-TTS, released on [GitHub](https://github.com/coriolis/orpheus-3b-tts-hindi) and [HuggingFace](https://huggingface.co/CoriolisTechnologies/orpheus-3b-tts-hindi).
 * **April 2026:** Invited by the [Chennai Mathematical Institute (CMI)](https://www.cmi.ac.in/) to present two research seminars:
   * *Talk 1:* **Scalable Acquisition, Synthesis and Curation of Data for Indic LLMs** (Addressing data distribution shifts between pre-training and human alignment cycles).
   * *Talk 2:* **Beyond Native Scripts: Robust Language Identification for Romanized and Code-Mixed Indian Languages** (Detailing structural curriculum-based training paradigms for cross-lingual environments).
