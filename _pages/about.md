@@ -44,15 +44,15 @@ My research interests lie at the intersection of **Brain-Inspired AI, Computatio
 
 * **Data Scientist**  
 [Coriolis Technologies Pvt. Ltd.](https://www.coriolis.co.in/home/) (*Nov 2025 – Present*)
-  * **LLM Alignment:** Engineer data acquisition, Supervised Fine-Tuning (SFT), Instruction Fine-Tuning (IFT), and RLHF alignment pipelines under the academic guidance of CMI and IIT Jammu faculty.
-  * **High-EQ Synthetic Data:** Developed synthetic text and audio generation pipelines to mitigate data scarcity in emotional conversational models.
-  * **Speech Architectures:** Fine-tuned and deployed production ASR and high-EQ Text-to-Speech (TTS) models for natural voice interaction.
+  * **LLM Alignment & Data Pipelines:** Engineer data acquisition, SFT, IFT, and RLHF alignment strategies under the academic guidance of CMI and IIT Jammu faculty.
+  * **Speech & Language Models:** Built **[Orpheus-3B-TTS-Hindi](https://huggingface.co/CoriolisTechnologies/orpheus-3b-tts-hindi)** for English-mixed Hindi speech synthesis and developed **MIRA-IndicLID**, a SOTA language identification model for 22 code-mixed Indian languages.
+  * **Model Distillation:** Distilled larger teacher LLMs into compact student SLMs for structured reasoning and physics problem solving.
 
 * **Master's Thesis Researcher & Research Intern**  
 [IISER Pune](https://www.iiserpune.ac.in/) & [Coriolis Technologies](https://www.coriolis.co.in/home/) (*May 2024 – June 2025*)
-  * **Model Evaluation & Benchmarking:** Evaluated over a dozen open-source LLMs (1B–24B parameters) for code generation under consumer-grade hardware constraints, analyzing response quality, token limits, and hallucination rates.
-  * **RAG & Self-Correction:** Built a Retrieval-Augmented Generation (RAG) pipeline with iterative self-correction for complex Python scripts (300–400 lines), increasing generation accuracy to **80%**.
-  * **Automated Evaluation:** Implemented an **LLM-as-a-Judge** framework for semantic code review, reducing script development time from **2 days to 3–4 hours**.
+  * **RAG & Self-Correction:** Developed a RAG pipeline and iterative self-correction loop for complex Python scripts (600–800 lines), boosting accuracy from a 20% zero-shot baseline to **90%**.
+  * **Model Benchmarking:** Evaluated instruction-following and hallucination dynamics across 12+ open-source models (1B–24B parameters) under 40 GB VRAM.
+  * **Automated Evaluation & Deployment:** Deployed an **LLM-as-a-Judge** framework and automated testing pipeline, reducing script development time from **2 days to under 4 hours**.
 
 ---
 

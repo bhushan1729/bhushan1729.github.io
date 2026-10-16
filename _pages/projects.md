@@ -8,26 +8,37 @@ author_profile: true
 <div class="custom-grid">
   <!-- Project 1 -->
   <div class="project-card">
-    <h3>Activity-Dependent Structural Sparsification for Deep Neural Networks</h3>
-    <p><strong>Timeline:</strong> Jan. 2026 – Present | <strong>Affiliation:</strong> Independent | <strong>Supervisor:</strong> Self-supervised</p>
+    <h3>Dynamic Activity-Dependent Pruning (DADP)</h3>
+    <p><strong>Timeline:</strong> Mar. 2026 – Sep. 2026 | <strong>Role:</strong> First Author | <strong>Status:</strong> Under Review, ICLR 2027 (<a href="https://arxiv.org/abs/2610.11853">arXiv:2610.11853</a>)</p>
     <ul>
-      <li>Designed a dynamic structural sparsification framework mimicking activity-dependent synapse elimination in biological nervous systems during developmental learning.</li>
-      <li>Developed an online pruning mechanism in PyTorch that accumulates connection saliency scores over data distributions using custom backward hook gradient tracking.</li>
-      <li>Conducted layer-wise sparsity analysis demonstrating that the model organically preserves early visual feature extractors (0% sparsity) while selectively gutting deep convolutional layers (75%–92% sparsity).</li>
-      <li>Pruned VGG-16 to 98.41% sparsity (63× compression) on MNIST maintaining 98.72% accuracy (vs. 99.49% baseline), and to 72.79% sparsity on CIFAR-10 with 84.64% accuracy (vs. 82.94% baseline).</li>
-      <li>Demonstrated extreme single-shot parameter compression while consistently outperforming state-of-the-art dynamic sparsity methods like RigL.</li>
+      <li>Built a single-pass pruning method inspired by synaptic plasticity to compress neural networks efficiently.</li>
+      <li>Discovered that pruned vision models naturally retain early sensory layers, while transformers keep late context layers.</li>
+      <li>Pruned VGG-16 to 98.41% sparsity (63× compression) on MNIST maintaining 98.72% accuracy, and to 72.79% sparsity on CIFAR-10 with +1.70% accuracy improvement over dense baseline.</li>
     </ul>
+    <p><a href="/publication/2026-06-05-dadp-pruning">View Publication Page &raquo;</a></p>
   </div>
 
   <!-- Project 2 -->
   <div class="project-card">
-    <h3>Olfactory System Inspired Named Entity Recognition (NER)</h3>
-    <p><strong>Timeline:</strong> Dec. 2025 – Present | <strong>Affiliation:</strong> Independent | <strong>Supervisor:</strong> Self-supervised</p>
+    <h3>Olfactory-Inspired Sparse Combinatorial Coding</h3>
+    <p><strong>Timeline:</strong> Dec. 2025 – Jun. 2026 | <strong>Role:</strong> Independent, First Author | <strong>Preprint:</strong> <a href="https://arxiv.org/abs/2606.21895">arXiv:2606.21895</a></p>
     <ul>
-      <li>Designed a biologically inspired global mixing module for NER based on principles of distributed sensing and pattern activation in the human olfactory system.</li>
+      <li>Designed a biologically inspired sparse compression layer based on mammalian olfactory circuits.</li>
       <li>Implemented an Olfaction Module + BiLSTM-CRF architecture.</li>
-      <li>Developed and evaluated a strong BiLSTM-CRF baseline.</li>
-      <li>Conducted ablation studies to analyse the impact of non-local feature interactions on entity boundary detection and rare entity recognition.</li>
+      <li>Reduced model parameters by 44% while improving low-resource F1 score by up to 6.23% over dense baselines.</li>
+    </ul>
+    <p><a href="/publication/2025-10-01-olfactory-inspired-ner">View Publication Page &raquo;</a></p>
+  </div>
+
+  <!-- Project 3 -->
+  <div class="project-card">
+    <h3>Retrieval-Augmented Large Code Generation and Evaluation (MS Thesis)</h3>
+    <p><strong>Timeline:</strong> May 2024 – May 2025 | <strong>Affiliation:</strong> Coriolis Technologies / IISER Pune</p>
+    <ul>
+      <li>Developed RAG system to synthesize complex 600–800-line Python code, improving zero-shot baseline accuracy from 20% to 65–70%.</li>
+      <li>Designed an iterative generation and self-correction loop with feedback, lifting overall accuracy to 90%.</li>
+      <li>Formulated an LLM-as-a-Judge evaluation framework to assess synthesized code generated in every iteration.</li>
+      <li>Benchmarked hallucination dynamics and instruction-following across 12+ open-source models (1B–24B parameters) under 40 GB VRAM.</li>
     </ul>
   </div>
 

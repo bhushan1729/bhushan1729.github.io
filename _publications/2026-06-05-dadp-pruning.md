@@ -1,12 +1,14 @@
 ---
 layout: single
-title: "Activity-Dependent Structural Sparsification: Biologically Inspired Dynamic Neural Pruning"
+title: "Dynamic Activity-Dependent Pruning (DADP): A Reverse-Hebbian Structural Plasticity Framework for Neural Networks"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-06-05-dadp-pruning
-date: 2026-06-05
-venue: "Working Paper"
-excerpt: "A dynamic neural pruning algorithm based on biological synapse elimination, achieving 72.79% structural sparsity on VGG-16 while improving CIFAR-10 baseline accuracy by +1.70%."
+date: 2026-10-01
+venue: "Under review, ICLR 2027"
+paperurl: 'https://arxiv.org/abs/2610.11853'
+citation: 'Deshpande, B. (2026). Dynamic Activity-Dependent Pruning (DADP): A Reverse-Hebbian Structural Plasticity Framework for Neural Networks. arXiv preprint arXiv:2610.11853 (Under review, ICLR 2027).'
+excerpt: "A dynamic structural sparsification algorithm based on biological synapse elimination, achieving 72.79% structural sparsity on VGG-16 while improving CIFAR-10 baseline accuracy by +1.70%."
 ---
 
 Deep learning models suffer from severe over-parameterization, resulting in high computational footprints. Biological systems resolve this via activity-dependent synapse elimination. We introduce **Dynamic Activity-Dependent Pruning (DADP)**, a structural sparsification algorithm bridging backpropagation with Hebbian structural plasticity.
@@ -19,4 +21,4 @@ As deep learning architectures scale to unprecedented sizes, they become notorio
 * Achieved **72.79% structural sparsity on VGG-16** while simultaneously improving baseline test accuracy on CIFAR-10 by **+1.70%** (reaching 84.64%).
 * Achieved **91.61% sparsity on CNNs on MNIST** alongside a **+0.85% validation accuracy boost**.
 
-[View Code Repository](https://github.com/bhushan1729)
+[arXiv Preprint](https://arxiv.org/abs/2610.11853) | [View Code Repository](https://github.com/bhushan1729)
